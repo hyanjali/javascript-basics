@@ -103,3 +103,225 @@ Build a clear understanding of JavaScript variables and how `let`, `const`, and 
 **Day 1 — Variables ✅**
 
 > One step closer to becoming better at JavaScript! 💻
+> # 📅 Day 2 — JavaScript Data Types
+
+Welcome to **Day 2 of my JavaScript learning journey**! 🚀
+
+Today, I continued learning the fundamentals of JavaScript by understanding **data types**.
+
+## 📚 What I Learned
+
+Today I learned about:
+
+* What data types are
+* Primitive data types
+* `String`
+* `Number`
+* `Boolean`
+* `Undefined`
+* `Null`
+* `BigInt`
+* `Symbol`
+* Using `typeof` to check the data type of a value
+
+## 🔹 1. String
+
+A `String` is used to store text.
+
+```javascript
+let name = "Anjali";
+
+console.log(name);
+console.log(typeof name);
+```
+
+**Output:**
+
+```text
+Anjali
+string
+```
+
+## 🔹 2. Number
+
+A `Number` is used to store numerical values, including integers and decimal numbers.
+
+```javascript
+let age = 20;
+let height = 5.4;
+
+console.log(age);
+console.log(height);
+console.log(typeof age);
+```
+
+**Output:**
+
+```text
+20
+5.4
+number
+```
+
+## 🔹 3. Boolean
+
+A `Boolean` can have only two values:
+
+* `true`
+* `false`
+
+```javascript
+let isStudent = true;
+
+console.log(isStudent);
+console.log(typeof isStudent);
+```
+
+**Output:**
+
+```text
+true
+boolean
+```
+
+## 🔹 4. Undefined
+
+A variable has the value `undefined` when it has been declared but no value has been assigned to it.
+
+```javascript
+let city;
+
+console.log(city);
+console.log(typeof city);
+```
+
+**Output:**
+
+```text
+undefined
+undefined
+```
+
+## 🔹 5. Null
+
+`null` represents an intentional absence of a value.
+
+```javascript
+let address = null;
+
+console.log(address);
+console.log(typeof address);
+```
+
+**Output:**
+
+```text
+null
+object
+```
+
+> **Note:** `typeof null` returns `"object"`. This is a historical behavior in JavaScript.
+
+## 🔹 6. BigInt
+
+`BigInt` is used for very large integer values that cannot be safely represented by the regular `Number` type.
+
+```javascript
+let bigNumber = 12345678901234567890n;
+
+console.log(bigNumber);
+console.log(typeof bigNumber);
+```
+
+**Output:**
+
+```text
+12345678901234567890n
+bigint
+```
+
+## 🔹 7. Symbol
+
+`Symbol` is used to create unique values.
+
+```javascript
+let id = Symbol("id");
+
+console.log(typeof id);
+```
+
+**Output:**
+
+```text
+symbol
+```
+
+## 🧠 JavaScript Data Types
+
+| Data Type | Example        | `typeof` Result |
+| --------- | -------------- | --------------- |
+| String    | `"Hello"`      | `string`        |
+| Number    | `25`           | `number`        |
+| Boolean   | `true`         | `boolean`       |
+| Undefined | `undefined`    | `undefined`     |
+| Null      | `null`         | `object`        |
+| BigInt    | `123n`         | `bigint`        |
+| Symbol    | `Symbol("id")` | `symbol`        |
+
+## 🔍 Using `typeof`
+
+The `typeof` operator is used to find the type of a value.
+
+```javascript
+let name = "Anjali";
+let age = 20;
+let isStudent = true;
+
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isStudent);
+```
+
+**Output:**
+
+```text
+string
+number
+boolean
+```
+
+## 💻 Practice
+
+Today I practiced:
+
+* Creating variables with different data types
+* Using strings and numbers
+* Working with boolean values
+* Understanding `undefined` and `null`
+* Learning about `BigInt` and `Symbol`
+* Using `typeof` to check data types
+
+## 📁 Practice Files
+
+```text
+02-data-types/
+│
+├── string.js
+├── number.js
+├── boolean.js
+├── undefined.js
+├── null.js
+├── bigint.js
+└── symbol.js
+```
+
+## 🎯 Day 2 Goal
+
+Build a clear understanding of **JavaScript data types** and learn how to identify them using the `typeof` operator.
+
+### 🚀 Progress
+
+**Day 2 — Data Types ✅**
+
+> Learning the building blocks of JavaScript, one day at a time! 💻🚀
+
