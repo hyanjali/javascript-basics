@@ -324,4 +324,78 @@ Build a clear understanding of **JavaScript data types** and learn how to identi
 **Day 2 — Data Types ✅**
 
 > Learning the building blocks of JavaScript, one day at a time! 💻🚀
+> ## 🗓️ Day 3 — Operators
+
+### 📚 Topic
+
+**Operators in JavaScript**
+
+Today I learned about the basic operators used to perform calculations, assign values, and compare values.
+
+### 🔹 What I Learned
+
+* **Arithmetic Operators**
+
+  * `+` Addition
+  * `-` Subtraction
+  * `*` Multiplication
+  * `/` Division
+  * `%` Modulus
+  * `**` Exponentiation
+
+* **Assignment Operators**
+
+  * `=` Assignment
+  * `+=` Add and assign
+  * `-=` Subtract and assign
+  * `*=` Multiply and assign
+  * `/=` Divide and assign
+
+* **Comparison Operators**
+
+  * `==` Equal to
+  * `===` Strictly equal to
+  * `!=` Not equal to
+  * `!==` Strictly not equal to
+  * `>` Greater than
+  * `<` Less than
+  * `>=` Greater than or equal to
+  * `<=` Less than or equal to
+
+### 💻 Practice
+
+```js
+// Arithmetic Operators
+let a = 10;
+let b = 3;
+
+console.log(a + b);  // 13
+console.log(a - b);  // 7
+console.log(a * b);  // 30
+console.log(a / b);  // 3.333...
+console.log(a % b);  // 1
+console.log(a ** b); // 1000
+
+// Assignment Operators
+let score = 10;
+
+score += 5;
+console.log(score); // 15
+
+score -= 3;
+console.log(score); // 12
+
+// Comparison Operators
+console.log(10 > 5);     // true
+console.log(10 < 5);     // false
+console.log(10 === 10);  // true
+console.log(10 !== 5);   // true
+```
+
+### 📝 Key Takeaway
+
+I learned how JavaScript operators are used to **calculate values, update variables, and compare data**.
+
+**Day 3 completed ✅**
+
 
