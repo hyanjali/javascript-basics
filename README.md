@@ -397,5 +397,73 @@ console.log(10 !== 5);   // true
 I learned how JavaScript operators are used to **calculate values, update variables, and compare data**.
 
 **Day 3 completed ✅**
+Day 4 — Logical Operators
+
+Today you'll learn the three main logical operators in JavaScript:
+
+1. && — AND
+
+Returns true only when both conditions are true.
+
+let age = 20;
+let hasId = true;
+
+console.log(age >= 18 && hasId); // true
+2. || — OR
+
+Returns true when at least one condition is true.
+
+let isWeekend = false;
+let isHoliday = true;
+
+console.log(isWeekend || isHoliday); // true
+3. ! — NOT
+
+Reverses a Boolean value.
+
+let isLoggedIn = true;
+
+console.log(!isLoggedIn); // false
+Quick practice
+
+Try to predict the output before running each:
+
+console.log(true && true);
+console.log(true && false);
+console.log(false || true);
+console.log(false || false);
+console.log(!true);
+console.log(!false);
+🏋️ Day 4 Exercises
+
+Exercise 1: Create variables:
+
+let age = 22;
+let hasLicense = true;
+
+Write a condition that checks whether the person is 18 or older AND has a license.
+
+Exercise 2: Create:
+
+let isStudent = true;
+let isEmployee = false;
+
+Check whether the person is a student OR an employee.
+
+Exercise 3: Create:
+
+let isRaining = false;
+
+Use ! to check whether it is not raining.
+
+Challenge:
+
+let age = 25;
+let hasTicket = true;
+let isVIP = false;
+
+A person can enter an event if they are 18+ AND have a ticket, OR if they are a VIP.
+
+Write the logical condition for this.
 
 
