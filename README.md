@@ -465,5 +465,40 @@ let isVIP = false;
 A person can enter an event if they are 18+ AND have a ticket, OR if they are a VIP.
 
 Write the logical condition for this.
+## Day 5 — Strings
+
+Today I learned about **Strings in JavaScript** and practiced using different string methods.
+
+### 📚 Topics Covered
+
+* Creating and working with strings
+* String properties
+* Common string methods
+* Accessing characters in a string
+* Converting strings to uppercase and lowercase
+* Finding and extracting parts of a string
+* Replacing text within a string
+
+### 💻 Practice
+
+I practiced methods such as:
+
+* `length`
+* `toUpperCase()`
+* `toLowerCase()`
+* `charAt()`
+* `includes()`
+* `indexOf()`
+* `slice()`
+* `substring()`
+* `replace()`
+* `trim()`
+
+### 🎯 Goal
+
+Understand how to manipulate and work with strings effectively in JavaScript through hands-on practice.
+
+**Day 5 completed! ✅**
+
 
 
