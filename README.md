@@ -499,6 +499,335 @@ I practiced methods such as:
 Understand how to manipulate and work with strings effectively in JavaScript through hands-on practice.
 
 **Day 5 completed! ✅**
+# 📅 Day 6 — Numbers & Math
+
+Welcome to **Day 6 of my JavaScript learning journey!** 🚀
+
+Today, I learned about **Numbers and Math methods in JavaScript**. I practiced different ways to work with numbers and perform mathematical operations using the built-in `Math` object.
+
+## 📚 What I Learned
+
+Today I learned about:
+
+* Number data type
+* Basic mathematical operations
+* `Math.round()`
+* `Math.floor()`
+* `Math.ceil()`
+* `Math.trunc()`
+* `Math.abs()`
+* `Math.pow()`
+* `Math.sqrt()`
+* `Math.max()`
+* `Math.min()`
+* `Math.random()`
+* Using `console.log()` to display results
+
+---
+
+## 🔹 1. Numbers in JavaScript
+
+JavaScript uses the `Number` data type to store both integers and decimal numbers.
+
+```javascript
+let age = 20;
+let price = 99.99;
+
+console.log(age);
+console.log(price);
+```
+
+**Output:**
+
+```text
+20
+99.99
+```
+
+---
+
+## 🔹 2. Basic Arithmetic Operations
+
+We can perform mathematical calculations using operators such as:
+
+* `+` → Addition
+* `-` → Subtraction
+* `*` → Multiplication
+* `/` → Division
+* `%` → Remainder
+* `**` → Power
+
+```javascript
+let a = 10;
+let b = 3;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+console.log(a ** b);
+```
+
+**Output:**
+
+```text
+13
+7
+30
+3.3333333333333335
+1
+1000
+```
+
+---
+
+## 🔹 3. `Math.round()`
+
+`Math.round()` rounds a number to the nearest integer.
+
+```javascript
+console.log(Math.round(4.6));
+console.log(Math.round(4.3));
+```
+
+**Output:**
+
+```text
+5
+4
+```
+
+👉 **Easy trick:** `round` = nearest number.
+
+---
+
+## 🔹 4. `Math.floor()`
+
+`Math.floor()` rounds a number **down** to the nearest integer.
+
+```javascript
+console.log(Math.floor(4.9));
+```
+
+**Output:**
+
+```text
+4
+```
+
+👉 **Easy trick:** `floor` = go down.
+
+---
+
+## 🔹 5. `Math.ceil()`
+
+`Math.ceil()` rounds a number **up** to the nearest integer.
+
+```javascript
+console.log(Math.ceil(4.1));
+```
+
+**Output:**
+
+```text
+5
+```
+
+👉 **Easy trick:** `ceil` = ceiling = go up.
+
+---
+
+## 🔹 6. `Math.trunc()`
+
+`Math.trunc()` removes the decimal part without rounding.
+
+```javascript
+console.log(Math.trunc(9.87));
+```
+
+**Output:**
+
+```text
+9
+```
+
+👉 **Easy trick:** `trunc` = remove decimal.
+
+---
+
+## 🔹 7. `Math.abs()`
+
+`Math.abs()` returns the positive value of a number.
+
+```javascript
+console.log(Math.abs(-25));
+```
+
+**Output:**
+
+```text
+25
+```
+
+👉 **Easy trick:** `abs` = absolute value.
+
+---
+
+## 🔹 8. `Math.pow()`
+
+`Math.pow()` is used to calculate the power of a number.
+
+```javascript
+console.log(Math.pow(2, 3));
+```
+
+**Output:**
+
+```text
+8
+```
+
+This means:
+
+```text
+2³ = 8
+```
+
+We can also use the `**` operator:
+
+```javascript
+console.log(2 ** 3);
+```
+
+**Output:**
+
+```text
+8
+```
+
+---
+
+## 🔹 9. `Math.sqrt()`
+
+`Math.sqrt()` returns the square root of a number.
+
+```javascript
+console.log(Math.sqrt(25));
+```
+
+**Output:**
+
+```text
+5
+```
+
+---
+
+## 🔹 10. `Math.max()`
+
+`Math.max()` returns the largest number.
+
+```javascript
+console.log(Math.max(10, 25, 5, 40, 15));
+```
+
+**Output:**
+
+```text
+40
+```
+
+👉 **Easy trick:** `max` = maximum = biggest.
+
+---
+
+## 🔹 11. `Math.min()`
+
+`Math.min()` returns the smallest number.
+
+```javascript
+console.log(Math.min(10, 25, 5, 40, 15));
+```
+
+**Output:**
+
+```text
+5
+```
+
+👉 **Easy trick:** `min` = minimum = smallest.
+
+---
+
+## 🔹 12. `Math.random()`
+
+`Math.random()` generates a random decimal number between `0` and less than `1`.
+
+```javascript
+console.log(Math.random());
+```
+
+Example output:
+
+```text
+0.73648291
+```
+
+The output will be different each time.
+
+### Random number from 1 to 10
+
+```javascript
+let number = Math.floor(Math.random() * 10) + 1;
+
+console.log(number);
+```
+
+This gives a random number between:
+
+```text
+1 → 10
+```
+
+---
+
+## 🧠 Quick Revision
+
+| Method          | Meaning         | Example           | Result |
+| --------------- | --------------- | ----------------- | ------ |
+| `Math.round()`  | Nearest integer | `Math.round(4.6)` | `5`    |
+| `Math.floor()`  | Round down      | `Math.floor(4.9)` | `4`    |
+| `Math.ceil()`   | Round up        | `Math.ceil(4.1)`  | `5`    |
+| `Math.trunc()`  | Remove decimal  | `Math.trunc(4.9)` | `4`    |
+| `Math.abs()`    | Positive value  | `Math.abs(-10)`   | `10`   |
+| `Math.pow()`    | Power           | `Math.pow(2,3)`   | `8`    |
+| `Math.sqrt()`   | Square root     | `Math.sqrt(25)`   | `5`    |
+| `Math.max()`    | Largest value   | `Math.max(2,8,5)` | `8`    |
+| `Math.min()`    | Smallest value  | `Math.min(2,8,5)` | `2`    |
+| `Math.random()` | Random number   | `Math.random()`   | `0–<1` |
+
+## 💻 Practice
+
+Today I practiced creating programs using numbers and `Math` methods, including:
+
+1. Finding the largest number.
+2. Finding the smallest number.
+3. Finding the square root.
+4. Rounding decimal numbers.
+5. Removing decimal values.
+6. Finding the absolute value.
+7. Generating random numbers.
+8. Creating a random number between 1 and 10.
+
+## 🎯 Key Takeaway
+
+Today I learned that JavaScript provides the built-in **`Math` object** to perform many mathematical operations easily.
+
+I'm getting more comfortable with JavaScript **one day at a time!** 🚀💻
+
+**#JavaScript #100DaysOfCode #LearningJavaScript #WebDevelopment #CodingJourney #Day6 #Programming**
+
 
 
 
