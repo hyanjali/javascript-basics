@@ -827,6 +827,7 @@ Today I learned that JavaScript provides the built-in **`Math` object** to perfo
 I'm getting more comfortable with JavaScript **one day at a time!** 🚀💻
 
 **#JavaScript #100DaysOfCode #LearningJavaScript #WebDevelopment #CodingJourney #Day6 #Programming**
+
 📅 Day 7 — JavaScript Type Conversion 🔄
 
 Welcome to Day 7 of my JavaScript learning journey! 🚀
