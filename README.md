@@ -827,6 +827,114 @@ Today I learned that JavaScript provides the built-in **`Math` object** to perfo
 I'm getting more comfortable with JavaScript **one day at a time!** 🚀💻
 
 **#JavaScript #100DaysOfCode #LearningJavaScript #WebDevelopment #CodingJourney #Day6 #Programming**
+📅 Day 7 — JavaScript Type Conversion 🔄
+
+Welcome to Day 7 of my JavaScript learning journey! 🚀
+
+Today, I learned about Type Conversion in JavaScript — how we can convert one data type into another.
+
+📚 What I Learned
+
+Today I learned about:
+
+Converting String → Number
+Converting Number → String
+Converting values to Boolean
+Number()
+String()
+Boolean()
+parseInt()
+parseFloat()
+Understanding NaN
+Difference between explicit and implicit type conversion
+💻 Examples
+🔹 String → Number
+let age = "22";
+
+age = Number(age);
+
+console.log(age);
+console.log(typeof age);
+
+Output:
+
+22
+number
+🔹 Number → String
+let price = 500;
+
+price = String(price);
+
+console.log(price);
+console.log(typeof price);
+
+Output:
+
+500
+string
+🔹 Convert to Boolean
+let value = 1;
+
+console.log(Boolean(value));
+
+Output:
+
+true
+🔹 parseInt()
+
+Used to convert a value into an integer.
+
+let num = "25.99";
+
+console.log(parseInt(num));
+
+Output:
+
+25
+🔹 parseFloat()
+
+Used when we want to keep the decimal value.
+
+let num = "25.99";
+
+console.log(parseFloat(num));
+
+Output:
+
+25.99
+🔹 Understanding NaN
+
+NaN means Not a Number.
+
+let value = Number("hello");
+
+console.log(value);
+
+Output:
+
+NaN
+🧠 Quick Revision
+Method	Purpose
+Number()	Convert to number
+String()	Convert to string
+Boolean()	Convert to boolean
+parseInt()	Convert to integer
+parseFloat()	Convert to decimal number
+typeof	Check data type
+NaN	Not a Number
+🎯 Practice for Today
+Convert "100" into a number.
+Convert 500 into a string.
+Convert 1 and 0 into Boolean.
+Use parseInt() on "45.67".
+Use parseFloat() on "45.67".
+Find the typeof of different variables.
+Try converting "Hello" using Number().
+
+Day 7 complete! ✅
+Learning → Practicing → Improving 🚀
+
+#JavaScript #100DaysOfCode #WebDevelopment #CodingJourney #JavaScriptLearning #Programming #LearningToCode #DeveloperJourney
 
 
 
