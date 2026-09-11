@@ -936,6 +936,146 @@ Day 7 complete! ✅
 Learning → Practicing → Improving 🚀
 
 #JavaScript #100DaysOfCode #WebDevelopment #CodingJourney #JavaScriptLearning #Programming #LearningToCode #DeveloperJourney
+Day 8 — JavaScript Conditionals if, else if, else 🚦
+
+Welcome to Day 8 of my JavaScript learning journey! 🚀
+
+Today, I learned about Conditional Statements in JavaScript.
+
+Conditional statements help a program make decisions based on a condition.
+
+📚 What I Learned
+
+Today I learned about:
+
+if statement
+else statement
+else if statement
+Comparison operators
+Checking conditions
+Multiple conditions
+Nested if statements
+Using && and || with conditions
+💻 Examples
+🔹 1. if Statement
+let age = 20;
+
+if (age >= 18) {
+    console.log("You are eligible to vote");
+}
+
+Output:
+
+You are eligible to vote
+🔹 2. if...else
+let age = 16;
+
+if (age >= 18) {
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}
+
+Output:
+
+Not eligible to vote
+
+👉 If the condition is true, if runs.
+
+👉 If the condition is false, else runs.
+
+🔹 3. else if
+
+When we have more than two possibilities, we can use else if.
+
+let marks = 75;
+
+if (marks >= 90) {
+    console.log("Grade A+");
+} else if (marks >= 75) {
+    console.log("Grade A");
+} else if (marks >= 60) {
+    console.log("Grade B");
+} else {
+    console.log("Fail");
+}
+
+Output:
+
+Grade A
+🔹 4. Comparison Operators
+
+I also practiced comparison operators:
+
+>     Greater than
+<     Less than
+>=    Greater than or equal to
+<=    Less than or equal to
+==    Equal to
+===   Strictly equal to
+!=    Not equal to
+!==   Strictly not equal to
+
+Example:
+
+let a = 10;
+
+console.log(a > 5);   // true
+console.log(a < 5);   // false
+console.log(a === 10); // true
+🔹 5. Using && — AND
+
+Both conditions must be true.
+
+let age = 22;
+let hasID = true;
+
+if (age >= 18 && hasID) {
+    console.log("Entry allowed");
+}
+
+Output:
+
+Entry allowed
+🔹 6. Using || — OR
+
+At least one condition must be true.
+
+let day = "Sunday";
+
+if (day === "Saturday" || day === "Sunday") {
+    console.log("Weekend");
+}
+
+Output:
+
+Weekend
+🧠 Quick Revision
+Concept	Purpose
+if	Checks a condition
+else	Runs when if is false
+else if	Checks another condition
+>	Greater than
+<	Less than
+>=	Greater/equal
+<=	Less/equal
+===	Strict equality
+&&	AND
+`	
+🎯 Practice for Today
+Check whether a number is positive or negative.
+Check whether a person is eligible to vote.
+Check whether a number is even or odd.
+Create a program to calculate grades from marks.
+Find the largest of two numbers.
+Find the largest of three numbers.
+Check whether a year is a leap year.
+Create a simple login condition using username and password.
+
+Day 8 complete! ✅
+Learning → Practicing → Improving 🚀
+
+#JavaScript #100DaysOfCode #WebDevelopment #CodingJourney #JavaScriptLearning #Programming #LearningToCode #DeveloperJourney
 
 
 
