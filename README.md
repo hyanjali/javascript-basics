@@ -1076,6 +1076,175 @@ Day 8 complete! ✅
 Learning → Practicing → Improving 🚀
 
 #JavaScript #100DaysOfCode #WebDevelopment #CodingJourney #JavaScriptLearning #Programming #LearningToCode #DeveloperJourney
+Day 9 — JavaScript Ternary Operator ? : 🚀
+
+Welcome to Day 9 of my JavaScript learning journey! 💻
+
+Today, I learned about the Ternary Operator, which is a shorter and cleaner way to write a simple if...else condition.
+
+📚 What I Learned
+
+Today I learned about:
+
+Ternary Operator ? :
+Condition
+? for the true result
+: for the false result
+Using Ternary with variables
+Using Ternary with comparison operators
+Nested Ternary Operator
+🔹 1. Basic Ternary Operator
+
+Instead of writing:
+
+let age = 20;
+
+if (age >= 18) {
+    console.log("Eligible");
+} else {
+    console.log("Not Eligible");
+}
+
+We can write:
+
+let age = 20;
+
+let result = age >= 18 ? "Eligible" : "Not Eligible";
+
+console.log(result);
+
+Output:
+
+Eligible
+🧠 Remember the structure
+condition ? trueValue : falseValue;
+
+Think:
+
+          condition
+              ↓
+        age >= 18
+        /        \
+     TRUE       FALSE
+       ↓           ↓
+ "Eligible"  "Not Eligible"
+🔹 2. Even or Odd
+let number = 10;
+
+let result = number % 2 === 0 ? "Even" : "Odd";
+
+console.log(result);
+
+Output:
+
+Even
+
+Here:
+
+number % 2 === 0
+
+is the condition.
+
+If it is true → "Even"
+If it is false → "Odd"
+
+🔹 3. Positive or Negative
+let number = -5;
+
+let result = number >= 0 ? "Positive" : "Negative";
+
+console.log(result);
+
+Output:
+
+Negative
+🔹 4. Pass or Fail
+let marks = 65;
+
+let result = marks >= 40 ? "Pass" : "Fail";
+
+console.log(result);
+
+Output:
+
+Pass
+🔹 5. Ternary with console.log()
+
+We can also directly print the result:
+
+let age = 16;
+
+console.log(age >= 18 ? "Adult" : "Minor");
+
+Output:
+
+Minor
+🔹 6. Ternary with Three Conditions
+
+Sometimes we need more than two possibilities.
+
+let marks = 85;
+
+let grade = marks >= 90
+    ? "A+"
+    : marks >= 75
+    ? "A"
+    : marks >= 60
+    ? "B"
+    : "C";
+
+console.log(grade);
+
+Output:
+
+A
+
+This is called a nested ternary.
+
+⚠️ It is useful for simple cases, but too many nested ternaries can make code difficult to read.
+
+🧠 if...else vs Ternary
+if...else
+if (age >= 18) {
+    console.log("Adult");
+} else {
+    console.log("Minor");
+}
+Ternary
+console.log(age >= 18 ? "Adult" : "Minor");
+
+Both can give the same result.
+
+⭐ Easy Trick to Remember
+?  → What happens if TRUE?
+
+:  → What happens if FALSE?
+
+So:
+
+age >= 18 ? "Adult" : "Minor"
+
+means:
+
+Is age >= 18?
+YES → Adult
+NO → Minor
+
+🎯 Practice for Today
+Check whether a number is even or odd.
+Check whether a person is eligible to vote.
+Check whether a number is positive or negative.
+Check whether marks are pass or fail.
+Find the greater of two numbers using ternary.
+Check whether a person is an adult or minor.
+Check whether a number is zero or non-zero.
+Create a simple grade system using nested ternary.
+
+Day 9 complete! ✅
+
+Learning → Practicing → Building 🚀
+
+#JavaScript #100DaysOfCode #JavaScriptLearning #CodingJourney #WebDevelopment #Programming #LearningToCode #DeveloperJourney
 
 
 
